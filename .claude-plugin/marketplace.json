@@ -1,0 +1,15 @@
+{
+	"name": "rptx",
+	"owner": {
+		"name": "RPTX LLC",
+		"email": "hello@rptxsoftware.com"
+	},
+	"description": "RPTX Software's plugins for Claude Code.",
+	"plugins": [
+		{
+			"name": "keel",
+			"source": "./keel",
+			"description": "Ask Keel why a build or test is slow: what it lowered, why, and what is loading the PC. Needs Keel installed (Windows, macOS or Linux)."
+		}
+	]
+}

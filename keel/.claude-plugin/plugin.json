@@ -1,0 +1,12 @@
+{
+	"name": "keel",
+	"version": "0.1.0",
+	"description": "Keel's view of the PC for Claude: what is steered, why a process got its priority, what is loading the machine. Needs Keel on Windows, macOS or Linux (rptxsoftware.com/keel).",
+	"author": {
+		"name": "RPTX LLC",
+		"email": "hello@rptxsoftware.com"
+	},
+	"homepage": "https://rptxsoftware.com/keel/",
+	"license": "LicenseRef-Proprietary",
+	"privacyPolicyUrl": "https://rptxsoftware.com/keel/privacy/"
+}
