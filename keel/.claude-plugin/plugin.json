@@ -1,8 +1,8 @@
 {
-	"name": "keel",
-	"displayName": "Keel",
-	"version": "0.1.1",
-	"description": "Keel's view of the PC for Claude: what is steered, why a process got its priority, what is loading the machine. Needs Keel on Windows, macOS or Linux (rptxsoftware.com/keel).",
+	"name": "rptx-keel",
+	"displayName": "Keel for AI Agents",
+	"version": "0.2.0",
+	"description": "Ask Keel why a build or test is slow: what it lowered and why, and what is loading the PC. Needs the Keel app on Windows, macOS or Linux (rptxsoftware.com/keel), free for two agents.",
 	"author": {
 		"name": "RPTX LLC",
 		"email": "hello@rptxsoftware.com",
@@ -23,10 +23,5 @@
 	"documentationUrl": "https://rptxsoftware.com/keel/#keelctl",
 	"supportUrl": "https://rptxsoftware.com/keel/#faq",
 	"privacyPolicyUrl": "https://rptxsoftware.com/keel/privacy/",
-	"termsOfServiceUrl": "https://rptxsoftware.com/keel/terms/",
-	"network": {
-		"hosts": [
-			"127.0.0.1"
-		]
-	}
+	"termsOfServiceUrl": "https://rptxsoftware.com/keel/terms/"
 }
