@@ -16,6 +16,12 @@ The same commands as tools, for any MCP client: `claude mcp add keel -- keelctl 
 Commands the skill uses: `keelctl status`, `work`, `why`, `missed`, `actions`, `stalls`,
 `steer off --for`.
 
+## Things to ask
+
+- "Why is this cargo build so slow?"
+- "What is loading this PC right now?"
+- "Time the test suite with Keel's steering off while it runs."
+
 ## What it runs, reads and changes
 
 - **Runs** nothing by itself. The skill says when to run `keelctl`, and Claude runs it in
