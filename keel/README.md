@@ -15,3 +15,13 @@ Without the plugin: `claude mcp add keel -- keelctl mcp`
 
 Tools: `keel_status`, `keel_work`, `keel_why`, `keel_missed`, `keel_actions`,
 `keel_stalls`, `keel_steer_off`.
+
+## What it runs, reads and changes
+
+- **Runs** one program, `keelctl mcp`, which Keel installs. Nothing is downloaded, and the
+  plugin holds no code of its own: a skill and this one command.
+- **Reads** what Keel sees on this PC: the names, command lines, CPU use and priority of
+  running processes, and what Keel did about them. Claude gets what it asks for, in the session.
+- **Reaches** only Keel itself, on this PC (127.0.0.1). No other host, no telemetry.
+- **Changes** one thing, and only when asked: `keel_steer_off` switches Keel's steering off
+  for the seconds given, and Keel switches it back on by itself.

@@ -1,12 +1,32 @@
 {
 	"name": "keel",
-	"version": "0.1.0",
+	"displayName": "Keel",
+	"version": "0.1.1",
 	"description": "Keel's view of the PC for Claude: what is steered, why a process got its priority, what is loading the machine. Needs Keel on Windows, macOS or Linux (rptxsoftware.com/keel).",
 	"author": {
 		"name": "RPTX LLC",
-		"email": "hello@rptxsoftware.com"
+		"email": "hello@rptxsoftware.com",
+		"url": "https://rptxsoftware.com"
 	},
 	"homepage": "https://rptxsoftware.com/keel/",
+	"repository": "https://github.com/rptxsoftware/keel-plugin",
 	"license": "LicenseRef-Proprietary",
-	"privacyPolicyUrl": "https://rptxsoftware.com/keel/privacy/"
+	"keywords": [
+		"performance",
+		"cpu",
+		"priority",
+		"builds",
+		"tests",
+		"agents"
+	],
+	"icon": "./.claude-plugin/icon.png",
+	"documentationUrl": "https://rptxsoftware.com/keel/#keelctl",
+	"supportUrl": "https://rptxsoftware.com/keel/#faq",
+	"privacyPolicyUrl": "https://rptxsoftware.com/keel/privacy/",
+	"termsOfServiceUrl": "https://rptxsoftware.com/keel/terms/",
+	"network": {
+		"hosts": [
+			"127.0.0.1"
+		]
+	}
 }
